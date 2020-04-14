@@ -3,10 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign in form</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Testing</h1>
+    <div class="container">
+        <h1 class="title">Sign in</h1>
+        <form class="form">
+            <input type="text" class="input name" name="name" placeholder="name">
+            <input type="password" class="input password" name="password" placeholder="password">
+            <div class="rm-me-box">
+            <input type="checkbox" class="rm-me-cbx" name="rm-me">
+            <label for="rm-me">Remember me</label>
+            </div>
+            <button class="btn" type="submit" value="send">Sign In</button>
+        </form>
+    </div>
+    <a class="pass-recover-link" href="#">Forgot your password?</a>
 </body>
 </html>
