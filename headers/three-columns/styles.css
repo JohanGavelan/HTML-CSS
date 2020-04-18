@@ -22,7 +22,6 @@ body {
     height: 100vh;
     padding: 2rem 4rem;
     font-family: 'Montserrat';
-    background-color: peachpuff;
 }
 
 .gap-sm {height: 2rem;}
@@ -78,26 +77,68 @@ body {
 
 .main__section {
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .main__section--overlay {
     position: absolute;
+    width: 100%;
+    height: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(black, .7);
-    z-index: 3;
+    background-color: rgba(30, 30, 30, 0.4);
+    z-index: 100;
 }
 
 .main__section--1 {
-    width: 100%;
-    height: 100%;
     background-image: url(img/pm1.jpg);
     background-position: center;
     background-size: cover;
 }
 
+.main__section--2 {
+    background-image: url(img/pm2.jpg);
+    background-position: center;
+    background-size: cover;
+}
 
-/*/////// MAIN ////////*/
+.main__section--3 {
+    background-image: url(img/pm3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.main__heading-box {
+    position: relative;
+    z-index: 101;
+    text-align: center;
+}
+
+.main__heading {
+    font-size: 1.8rem;
+    color: var(--color-white);
+    text-transform: uppercase;
+}
+
+.main__section-btn {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    padding: 1.3rem 2rem;
+    background-color: rgba(255, 255, 255, 0.747);
+    color: var(--color-primary);
+    transition: all .3s ease-out;
+}
+
+.main__section-btn:hover {
+    background-color: #fff;
+}
+
+
+/*/////// CREDITS ////////*/
 
 .credits {
     font-family: 'Karla', sans-serif;
