@@ -16,7 +16,6 @@
 }
 
 html {
-    box-sizing: 62.5%;
     box-sizing: border-box;
 }
 
@@ -24,13 +23,16 @@ body {
     font-family: 'Roboto';
 }
 
+.gap-sm {height: 20px;}
+.gap-md {height: 40px;}
+
 
 /*/////////////7*/
 
 .container {
     width: 100%;
     height: 100vh;
-    background-image: url(img/architecture.jpg);
+    background-image: url(img/building.jpg);
     background-size: cover;
     position: relative;
     overflow: hidden;
@@ -53,26 +55,66 @@ body {
     display: flex;
     flex-direction: column;
     background-color: var(--color-white);
-    width: 30rem;
+    width: 27rem;
     padding: 3.5rem 2.5rem;
     z-index: 10;
 }
 
 .form .input {
     margin: 1rem 0;
+    color: var(--color-grey-dark);
+    font-weight: 400;
+    border: 1px solid #e3e3e3;
+    font-size: 15px;
 }
 
 .form__title {
+    display: flex;
+    position: relative;
     font-size: 1.7rem;
-    color: var(--color-blue-dark); 
-    padding-left: 8px;
+    color: var(--color-blue-dark);
 }
 
 .form__title::before {
     content: "";
     display: block;
-    width: 10px;
-    height: 10px;
-    color: var(--color-blue);
+    width: 3px;
+    height: 20px;
+    background: var(--color-blue);
+    margin: 7px 7px 0 0;
     z-index: 10;
+}
+
+.form .input {
+    padding: 1rem;
+}
+
+.form .input::placeholder {
+    font-style: italic;
+}
+
+.form__note {
+    color: var(--color-grey-dark);
+    margin-top: 3px;
+    letter-spacing: .2px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.form__btn {
+    display: inline-block;
+    padding: 1.5rem;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .25s all ease-in-out;
+}
+
+.form__btn:hover {
+    background-color: #2D58EC;
 }
