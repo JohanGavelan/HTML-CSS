@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons-box i {
+    font-size: 100px;
+    margin: 0 30px;
+}
+
+.fa-html5 {
+    color: #FF5722;
+}
+
+.fa-css3-alt {
+    color: #006DB8;
+}
+
+.fa-js-square {
+    color: #F7DF1E;
+}
