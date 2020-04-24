@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
 
 * {
     box-sizing: inherit;
@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     font-weight: 700;
     min-height: 100vh;
     background-color: #7072f7;
@@ -49,10 +49,41 @@ body {
     text-decoration: none;
     color: #fff;
     font-size: 1.5rem;
-    letter-spacing: .3px;
 }
 
 i {
     font-size: 1.8rem;
     margin: 0 1rem;
+}
+
+
+/*/////////////////////*/
+
+.header {
+    width: 60%;
+    margin: 0 auto;
+    padding: 5rem 0;
+    display: flex;
+}
+
+.heading {
+    width: 50%;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 3rem;
+}
+
+.heading h1 {
+    font-size: 6.8rem;
+    font-weight: 900;
+}
+
+.heading p {
+    font-size: 2.4rem;
+    font-weight: 300;
+    margin-top: 2rem;
+    line-height: 3.6rem;
+}
+
+.heading span {
+    font-weight: bold;
 }
