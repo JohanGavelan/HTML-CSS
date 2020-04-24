@@ -15,10 +15,44 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     min-height: 100vh;
-    background-color: #635AD1;
+    background-color: #7072f7;
     color: #fff;
 }
 
 
 /*////////////////*/
 
+.nav {
+    width: 60%;
+    margin: 0 auto;
+    padding: 4.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+.links {
+    display: flex;
+}
+
+.links li {
+    margin: 0 1rem;
+    list-style: none;
+}
+
+.links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    letter-spacing: .3px;
+}
+
+i {
+    font-size: 1.8rem;
+    margin: 0 1rem;
+}
