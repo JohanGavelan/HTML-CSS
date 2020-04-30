@@ -15,8 +15,10 @@ body {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 700;
     min-height: 100vh;
-    background-color: #604EC5;
     color: #fff;
+    background-image: url(img/tree-mountain.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 
@@ -49,6 +51,12 @@ body {
     text-decoration: none;
     color: #fff;
     font-size: 1.5rem;
+    padding-bottom: .5rem;
+}
+
+.links a:hover,
+.links a:active {
+    border-bottom: 2.5px solid white;
 }
 
 i {
@@ -92,10 +100,11 @@ i {
 
 .form {
     display: flex;
+    justify-content: start;
     width: 45.5rem;
     flex-direction: column;
     background-color: #fff;
-    padding: 6rem 5.5rem;
+    padding: 6rem 5.5rem 4rem;
     margin-left: auto;
     border-radius: 1rem;
     font-family: 'Nunito Sans', sans-serif;
@@ -126,11 +135,16 @@ i {
     font-size: 1.4rem;
     font-family: inherit;
     font-weight: inherit;
+    text-transform: capitalize;
     color: white;
     background-color: black;
     border: none;
-    padding: 1rem 2rem;
+    border-radius: 3px;
+    padding: 1.2rem 0;
     margin: 1.7rem 0;
     display: inline-block;
+    max-width: 17.5rem;
     cursor: pointer;
 }
+
+
