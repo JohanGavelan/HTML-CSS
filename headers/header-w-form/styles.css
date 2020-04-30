@@ -15,7 +15,7 @@ body {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 700;
     min-height: 100vh;
-    background-color: #7072f7;
+    background-color: #604EC5;
     color: #fff;
 }
 
@@ -54,6 +54,7 @@ body {
 i {
     font-size: 1.8rem;
     margin: 0 1rem;
+    cursor: pointer;
 }
 
 
@@ -64,16 +65,17 @@ i {
     margin: 0 auto;
     padding: 5rem 0;
     display: flex;
+    align-items: center;
 }
 
 .heading {
-    width: 50%;
+    width: 40%;
     font-family: 'Roboto', sans-serif;
     padding-right: 3rem;
 }
 
 .heading h1 {
-    font-size: 6.8rem;
+    font-size: 6.5rem;
     font-weight: 900;
 }
 
@@ -90,17 +92,45 @@ i {
 
 .form {
     display: flex;
-    width: 40%;
+    width: 45.5rem;
     flex-direction: column;
     background-color: #fff;
-    padding: 5rem;
+    padding: 6rem 5.5rem;
     margin-left: auto;
     border-radius: 1rem;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 .form label {
-    font-family: 'Nunito Sans', sans-serif;
     font-weight: 400;
     font-size: 1.4rem;
     color: #000;
+}
+
+.form label:not(:first-child) {
+     margin-top: 2rem;
+}
+
+.form .input {
+    border: none;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    margin-top: 1.2rem;
+    padding: 1.6rem 1.8rem;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.form button {
+    font-size: 1.4rem;
+    font-family: inherit;
+    font-weight: inherit;
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 1.7rem 0;
+    display: inline-block;
+    cursor: pointer;
 }
