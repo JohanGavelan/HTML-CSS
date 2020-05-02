@@ -4,7 +4,7 @@
     --blue-dark: #051643;
     --blue-light: #071B50;
     --orange-light: #FFA737;
-    --orange-dark: #FF9946;
+    --orange-dark: #ffa737;
 }
 
 *,
@@ -22,10 +22,75 @@ html {
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    min-height: 100vh;
 }
 
 
 /*///////////////////*/
 
+.container {
+    height: 100vh;
+    background-color: var(--blue-dark);
+    padding: 10rem 5rem;
+    text-align: center;
+}
 
+.content {
+    width: 130rem;
+    margin: 0 auto;
+}
+
+.heading {
+    color: white;
+    width: 60rem;
+    margin: 0 auto;
+}
+
+.heading h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: -1px;
+}
+
+.heading p {
+    font-size: 2.1rem;
+    margin-top: 1.5rem;
+    line-height: 3.3rem;
+    letter-spacing: .5px;
+}
+
+.cards-box {
+    display: flex;
+    margin-top: 10rem;
+}
+
+.cards {
+    margin: 0 2rem;
+    background-color: var(--blue-light);
+    padding: 5.5rem 2.5rem 4.5rem;
+}
+
+.cards i {
+    font-size: 3.8rem;
+    color: var(--orange-light);
+    margin-bottom: 2.5rem;
+}
+
+.cards h2 {
+    font-size: 2.7rem;
+    color: white;
+    letter-spacing: -1px;
+}
+
+.cards p {
+    font-size: 1.8rem;
+    line-height: 3.3rem;
+    color: white;
+    margin: 1.5rem 0 2rem;
+}
+
+.cards a {
+    text-decoration: none;
+    font-size: 1.85rem;
+    color: var(--orange-dark);
+}
