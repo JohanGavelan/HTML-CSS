@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;700&family=Roboto:wght@300;400&display=swap');
+
+:root {
+    --blue: #213d65;
+    --light-blue: #00B4DF;
+    --green-aqua: #42DDCD;
+    --soft-white: #F8F8F8;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
