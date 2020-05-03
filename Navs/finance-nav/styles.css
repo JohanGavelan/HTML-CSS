@@ -29,7 +29,7 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 0 10%;
+    padding: 0 7%;
     background-color: white;
 }
 
@@ -38,6 +38,7 @@ li, a, button {
     font-weight: 500;
     font-size: 1.4rem;
     text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .links {
@@ -52,9 +53,13 @@ li, a, button {
 .links li a {
     color: var(--grey-smoke);
     text-decoration: none;
-    letter-spacing: 1px;
-    background-color: var(--soft-white);
     padding: 4rem 3rem;
+    transition: all .3s ease;
+}
+
+.links li a:hover {
+    background-color: var(--soft-white);
+    color: var(--blue);
 }
 
 .logo {
@@ -82,5 +87,16 @@ li, a, button {
 }
 
 button {
+    padding: 1.4rem 3.5rem;
+    border-radius: 5rem;
+    border: none;
     margin: 0 3rem;
+    background-color: var(--green-aqua);
+    color: white;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+button:hover {
+    background-color: #1CD6C3;
 }
