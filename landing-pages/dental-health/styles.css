@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Source+Sans+Pro:wght@200;300&display=swap');
 
 :root {
     --blue: #3071C8;
     --blue-aqua: #40CBBB;
     --aqua-dark: #3BAFBF;
     --light-blue: #3697C3;
+    --text-color: #333c4e;
 }
 
 *,
@@ -22,7 +23,13 @@ html {
 
 body {
     min-height: 100vh;
+    color: var(--text-color);
 }
+
+.gap-sm {margin: 2rem;}
+.gap-md {margin: 3rem}
+.gap-bg {margin: 7rem;}
+.gap-hg {margin: 10rem;}
 
 /*////////////////*/
 
@@ -92,15 +99,13 @@ body {
 }
 
 .links a {
+    display: block;
     font-size: 1.38rem;
     color: white;
     text-decoration: none;
     transition: all .3s ease;
 }
 
-.links a:hover {
-    color: var(--aqua-dark);
-}
 
 .btn {
     display: inline-block;
@@ -230,4 +235,85 @@ body {
 .office-hours__phone-number i {
     margin-right: 1rem;
 }
+
+
+/*///// WELCOME-SECTION ////////*/
+
+
+/* HEADING */
+
+
+.welcome-section {
+    padding: 10rem 5rem;
+}
+
+.welcome-section__wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.welcome-section__heading {
+    width: 75rem;
+    margin: 0 auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.welcome-section__heading h2 {
+    font-size: 4.6rem;
+    font-weight: 200;
+}
+
+.welcome-section__heading p {
+    font-size: 2.2rem;
+    margin-top: 2rem;
+    line-height: 4rem;
+}
+
+
+/* COLUMNS */
+
+.welcome-section__cols {
+    display: flex;
+    width: 120rem;
+    margin: 0 auto 5rem;
+}
+
+.welcome-section__col {
+    margin: 0 1rem;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.welcome-section__col i {
+    font-size: 5rem;
+    color: var(--aqua-dark);
+}
+
+.welcome-section__col a {
+    display: block;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.welcome-section__col h2 {
+    font-size: 2.2rem;
+    font-weight: 200;
+    margin: 4rem 0 1.5rem;
+    transition: all .3s;
+    text-transform: uppercase;
+}
+
+.welcome-section__col a:hover h2 {
+    color: var(--aqua-dark);
+}
+
+.welcome-section__col p {
+    font-size: 1.7rem;
+    font-weight: 300;
+    color: var(--text-color);
+    line-height: 4rem;
+}
+
 
