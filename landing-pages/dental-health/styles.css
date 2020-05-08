@@ -341,14 +341,16 @@ body {
     margin: 0 auto;
 }
 
-.doctors-section__heading {
+.doctors-section__heading,
+.health-services__heading {
     width: 70rem;
     margin: 0 auto;
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-.doctors-section__heading i {
+.doctors-section__heading i,
+.health-services__heading i {
     font-size: 6rem;
     background-image: linear-gradient(to right, var(--blue-aqua), var(--light-blue));
     background-clip: text;
@@ -357,14 +359,17 @@ body {
     letter-spacing: 1px;
 }
 
-.doctors-section__heading h2 {
+.doctors-section__heading h2,
+.health-services__heading h2 {
     font-size: 4.5rem;
     font-weight: 200;
     text-transform: uppercase;
     margin: 3rem 0;
+    letter-spacing: 1px;
 }
 
-.doctors-section__heading p {
+.doctors-section__heading p,
+.health-services__heading p {
     font-size: 2.3rem;
     line-height: 5rem;
 }
@@ -451,3 +456,44 @@ body {
 .icons-wrapper {
     margin-bottom: .8rem;
 }
+
+
+/*///// MEET OUR DOCTORS SECTION /////*/
+
+
+.health-services {
+    padding: 10rem 5rem;
+}
+
+.health-services__cols {
+    display: flex;
+    width: 120rem;
+    margin: 7rem auto;
+}
+
+.health-services__col {
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.health-services__col a {
+    display: block;
+    text-decoration: none;
+    color: var(--text-color);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.health-services__col a:hover h2 {
+    color: var(--aqua-dark);
+}
+
+.health-services__col h2 {
+    font-size: 2.2rem;
+    font-weight: 200;
+    margin: 2rem 0;
+}
+
+.health-services__col p {
+    font-size: 1.7rem;
+    line-height: 2.3;
+} 
