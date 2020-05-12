@@ -28,7 +28,7 @@ body {
 }
 
 .gap-sm {margin: 2rem;}
-.gap-md {margin: 3rem}
+.gap-md {margin: 4rem}
 .gap-bg {margin: 7rem;}
 .gap-hg {margin: 10rem;}
 
@@ -344,7 +344,8 @@ body {
 
 .doctors-section__heading,
 .health-services__heading,
-.our-facilities__heading {
+.our-facilities__heading,
+.appointment__heading {
     width: 70rem;
     margin: 0 auto;
     text-align: center;
@@ -364,7 +365,8 @@ body {
 
 .doctors-section__heading h2,
 .health-services__heading h2,
-.our-facilities__heading h2 {
+.our-facilities__heading h2,
+.appointment__heading h2 {
     font-size: 4.5rem;
     font-weight: 200;
     text-transform: uppercase;
@@ -374,7 +376,8 @@ body {
 
 .doctors-section__heading p,
 .health-services__heading p,
-.our-facilities__heading p {
+.our-facilities__heading p,
+.appointment__heading p {
     font-size: 2.3rem;
     line-height: 5rem;
 }
@@ -584,3 +587,30 @@ body {
 }
 
 
+/*///// MAKE AN APPOINTMENT /////*/
+
+.appointment {
+    padding: 10rem 5rem;
+    background-image: url(img/make-an-appointment.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.appointment__wrapper {
+    width: 70rem;
+    margin: 0 auto;
+}
+
+.appointment__heading {
+    color: white;
+}
+
+.appointment__heading h2 {
+    text-transform: capitalize;
+}
+
+.appointment__form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
