@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Source+Sans+Pro:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Source+Sans+Pro:wght@200;300;400&display=swap');
 
 :root {
-    --blue: #3071C8;
+    --blue: #327EC7;
     --blue-aqua: #40CBBB;
     --aqua-dark: #3BAFBF;
     --light-blue: #3697C3;
@@ -24,6 +24,7 @@ html {
 body {
     min-height: 100vh;
     color: var(--text-color);
+    font-weight: 300;
 }
 
 .gap-sm {margin: 2rem;}
@@ -510,7 +511,6 @@ body {
 
 /*///// TOUR OUR FACILITIES/////*/
 
-
 .our-facilities {
     padding: 10rem 5rem;
     background-image: url(img/paralax-bg-tour-facilities.webp);
@@ -520,6 +520,67 @@ body {
 
 .our-facilities__heading {
     color: white;
+}
+
+
+/*///// SQUARES /////*/
+
+.squares-cols {
+    display: flex;
+}
+
+.squares-col {
+    width: 100%;
+    padding: 7rem 3rem;
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 300;
+    font-family: 'Source Sans Pro', sans-serif  ;
+    color: white;
+}
+
+.squares-col h2 {
+    font-size: 2.2rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.squares-col p {
+    line-height: 2;
+}
+
+.squares-col img {
+    margin: 1rem 0 1.5rem;
+}
+
+.squares-col button {
+    color: white;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1.3rem 3rem;
+    margin: 5rem 0 1rem;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.squares-col button:hover {
+    color: var(--aqua-dark);
+    background-color: white;
+}
+
+.squares-col__1 {
+    background-color: var(--aqua-dark)
+}
+
+.squares-col__2 {
+    background-color: var(--light-blue)
+}
+
+.squares-col__3 {
+    background-color: var(--blue);
 }
 
 
