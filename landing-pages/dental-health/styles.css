@@ -28,8 +28,8 @@ body {
 }
 
 .gap-sm {margin: 2rem;}
-.gap-md {margin: 4rem}
-.gap-bg {margin: 6rem;}
+.gap-md {margin: 5rem}
+.gap-bg {margin: 8rem;}
 .gap-hg {margin: 10rem;}
 
 .divider {
@@ -590,14 +590,14 @@ body {
 /*///// MAKE AN APPOINTMENT /////*/
 
 .appointment {
-    padding: 10rem 5rem;
+    padding: 15rem 5rem;
     background-image: url(img/make-an-appointment.webp);
     background-size: cover;
     background-position: center;
 }
 
 .appointment__wrapper {
-    width: 80rem;
+    width: 77rem;
     margin: 0 auto;
 }
 
@@ -612,11 +612,11 @@ body {
 .appointment__form {
     display: grid;
     width: 100%;
-    height: 35rem;
+    height: 38rem;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 3fr 1fr;
     grid-column-gap: 3.5rem;
-    grid-row-gap: 2rem;
+    grid-row-gap: 2.5rem;
 }
 
 .appointment__form .input {
@@ -649,6 +649,23 @@ body {
     grid-area: 4 / 1 / 5 / 3;
     font-size: 1.7rem;
     text-transform: uppercase;
+    padding: 1.7rem 0;
     border: none;
     cursor: pointer;
 }
+
+
+/*///// MAKE AN APPOINTMENT /////*/
+
+.logos {
+    padding: 2.2rem 0;
+    background-image: linear-gradient(to right, #50BAB6, var(--blue));
+}
+
+.logos__wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+}
+
