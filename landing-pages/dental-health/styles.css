@@ -39,6 +39,12 @@ body {
     margin: 3rem auto;
 }
 
+.divider-2 {
+    width: 100%;
+    height: 2px;
+    background-color: #e0dede;
+}
+
 /*////////////////*/
 
 .header {
@@ -91,7 +97,10 @@ body {
 }
 
 .logo__text {
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
     font-size: 2.4rem;
     color: white;
 }
@@ -672,7 +681,72 @@ body {
 
 /*///// MAKE AN APPOINTMENT /////*/
 
+/* ABOUT */
+
 .footer {
-    padding: 1rem 0;
+    padding: 3rem 5rem;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
+.footer__cols {
+    display: flex;
+}
+
+.footer__col {
+    width: 100%;
+    padding: 2rem;
+}
+
+.footer .logo__text {
+    color: #333333;
+}
+
+.footer__about p {
+    font-size: 1.7rem;
+    line-height: 2.25;
+    font-weight: 300;
+    margin: 2rem 0;
+}
+
+.footer__learn-more {
+    display: inline-block;
+    font-size: 1.8rem;
+    margin: .5rem 0 3rem;
+    letter-spacing: 1px;
+}
+
+.footer__icons a {
+    display: inline-block;
+    font-size: 1.6rem;
+    color: white;
+    border-radius: 4px;
+    margin-right: 1rem;
+    transition: all .3s ease-in-out;
+}
+
+.footer__icons a:hover {
+    opacity: .8;
+}
+
+.footer__icons a:nth-child(1) {
+    background-color: #3B5998;
+    padding: 7px 12px;
+}
+
+.footer__icons a:nth-child(2) {
+    background-color: #55ACEE;
+    padding: 7px 9px;
+}
+
+.footer__icons a:nth-child(3) {
+    background-color: #CD201F;
+    padding: 7px 9px;
+}
+
+.footer__icons a:nth-child(4) {
+    background-color: #3B5998;
+    padding: 7px 10px;
+}
+
+
+/* CONTACT INFORMATION */ 
