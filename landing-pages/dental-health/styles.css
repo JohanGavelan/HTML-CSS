@@ -27,7 +27,7 @@ body {
     font-weight: 300;
 }
 
-.gap-lt {margin: 1.5rem;}
+.gap-lt {margin: 1.7rem;}
 .gap-sm {margin: 2rem;}
 .gap-md {margin: 5rem}
 .gap-bg {margin: 8rem;}
@@ -645,7 +645,7 @@ body {
 
 .appointment__form .input::placeholder {
     text-transform: uppercase;
-    font-size: 1.2rem;
+    font-size: 1.15rem;
     color: #A2A2A3;
 }
 
@@ -671,7 +671,7 @@ body {
 }
 
 
-/*///// MAKE AN APPOINTMENT /////*/
+/*///// FOOTER /////*/
 
 .logos {
     padding: 2.2rem 0;
@@ -684,11 +684,6 @@ body {
     width: 60%;
     margin: 0 auto;
 }
-
-
-/*///// MAKE AN APPOINTMENT /////*/
-
-/* ABOUT */
 
 .footer {
     padding: 5rem 5rem;
@@ -710,6 +705,9 @@ body {
     width: 100%;
     padding: 2rem;
 }
+
+
+/* ABOUT */
 
 .footer .logo__text {
     color: #333333;
@@ -799,3 +797,56 @@ body {
     text-align: center;
 }
 
+
+/* NAVIGATION */
+
+.footer__links {
+    padding: 1rem 0;
+}
+
+.footer__links div {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.footer__links i {
+    font-size: 1.6rem;
+    margin-right: 1.5rem;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--aqua-dark);
+}
+
+.footer__links a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    transition: all .2s;
+    transition-timing-function: linear;
+}
+
+.footer__links a:hover {
+    color: var(--aqua-dark);
+}
+
+.footer__view-btn {
+    font-family: 'Montserrat';
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 1.7rem 4.5rem;
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
+    transition: all .2s;
+}
+
+.footer__view-btn:hover {
+    background-color: var(--aqua-dark);
+    border: 1px solid var(--aqua-dark);
+    color: white;
+}
