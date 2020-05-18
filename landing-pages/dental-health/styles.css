@@ -118,8 +118,10 @@ body {
 }
 
 .links li {
+    display: block;
     list-style: none;
     margin: 0 2rem;
+    position: relative;
 }
 
 .links a {
